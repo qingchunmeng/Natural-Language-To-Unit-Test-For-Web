@@ -1,3 +1,17 @@
+---
+name: nl2unit-test
+description: "将自然语言描述转化为Web页面单元测试case。TRIGGER when: 用户需要为Web页面、前端组件、UI交互生成单元测试；用户用自然语言描述测试场景并期望生成测试代码。SKIP: 后端API测试、数据库测试、非Web相关的测试生成请求。"
+version: "1.0.0"
+allowed-tools:
+  - Read
+  - Bash
+  - Edit
+  - Write
+  - Agent
+  - WebFetch
+  - WebSearch
+---
+
 # /nl2unit-test: 将自然语言描述转化为Web页面单元测试case
 
 针对 Web 页面，将用户的自然语言描述解析为结构化的单元测试用例代码。
